@@ -3,6 +3,10 @@ version: '3.8'
 services:
   app:
     build: .
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.app.rule=Host(`licitsmart.com.br`)"
+      - "traefik.http.services.app.loadbalancer.server.port=5000"
     ports:
       - "5000:5000"
     volumes:
