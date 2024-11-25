@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+instance/
+.pytest_cache/
+*.log
+*.sqlite3
+
+# Docker
+*.pid
+*.seed
+*.swp
+*.swo
+*.out
+.env
+
+# Uploads
+uploads/
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*~
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
